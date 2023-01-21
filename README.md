@@ -1,3 +1,8 @@
+# Basic Nodejs front end
+I am writing this documentation for myself to get practice setting up a nodejs front end.  Something I can have in case I step away from this platform for a while.
+
+## github setup
+
 echo "# SevenDeadlySinsVanilla" >> README.md
 git init
 git add README.md
