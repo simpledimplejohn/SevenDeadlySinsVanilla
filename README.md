@@ -33,9 +33,28 @@ git push -u origin main
     ```
 - 
 
-## Basic files and code
+# MISS NOTES 
 
-## MISS NOTES UNFILED
+## Notes on using github
+
+- `git log --oneline` to get out `control z`
+- reset to previous commit and delete current commit (not pushed)
+    `--hard HEAD^`
+- previous commit to new branch
+    `git checkout -b old-state 4879e01` old-state is the new branch, then commit id
+- Fix previous commit message not pushed
+    `git commit --amend -m "amended message"`
+- Create New Branch copy data over
+    `git checkout -b new-branch-name`
+
+
+- Merge to main
+    `git checkout main`
+    `git pull origin main`
+    `git merge oldBranch`
+    `git push origin main`
+
+## CRON NOTES
 - Running a cron job on your local mac machine
     `crontab -1` lists
     `crontab -e` edit
